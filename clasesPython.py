@@ -10,11 +10,13 @@ class Persona:
     def comer(self):
         print(f"{self.nombre.capitalize()} está comiendo.")
 
+    def mostrarInfo(self):
+        print(self)
+        
     def __repr__(self):
         return f"Nombre completo= {self.nombre} {self.apellido}, Edad= {self.edad}"
     
-    def mostrarInfo(self):
-        print(self)
+
 
 
 profesor = Persona("Alberto", "Dominguez", 30)

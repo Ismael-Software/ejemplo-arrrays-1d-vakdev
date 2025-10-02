@@ -3,8 +3,7 @@ public class clasesJava {
         Persona profesor = new Persona("Alberto", "Dominguez", 30);
         Persona alumno = new Persona("Alejandro", "Barrera", 23);
         Persona chofer = new Persona("Zayuri", "Espinoza", 29);
-        Persona deportista = new Persona("Lebron", "James", 30);
-        
+        Persona deportista = new Persona("Lebron", "James", 30)
     }
 }
 
